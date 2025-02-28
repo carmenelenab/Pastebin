@@ -1,0 +1,21 @@
+2025-02-26 13:14:37.134171+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "TEXT CHARACTER VARYING(255)": "U&'""Everybody wants to be famous, but nobody wants to do the work. I live by tha... (297)"; SQL statement:
+insert into text (text,id) values (?,?) [22001-232]
+2025-02-26 13:14:42.157295+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "TEXT CHARACTER VARYING(255)": "U&'""Everybody wants to be famous, but nobody wants to do the work. I live by tha... (297)"; SQL statement:
+insert into text (text,id) values (?,?) [22001-232]
+2025-02-26 13:15:28.154309+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "TEXT CHARACTER VARYING(255)": "U&'""Everybody wants to be famous, but nobody wants to do the work. I live by tha... (297)"; SQL statement:
+insert into text (text,id) values (?,?) [22001-232]
+2025-02-26 13:16:25.406095+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "TEXT CHARACTER VARYING(255)": "U&'""Everybody wants to be famous, but nobody wants to do the work. I live by tha... (297)"; SQL statement:
+insert into text (text,id) values (?,?) [22001-232]
+2025-02-26 13:17:03.649828+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "TEXT CHARACTER VARYING(255)": "U&'""Everybody wants to be famous, but nobody wants to do the work. I live by tha... (297)"; SQL statement:
+insert into text (text,id) values (?,?) [22001-232]
+2025-02-26 13:19:26.783738+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "TEXT CHARACTER VARYING(255)": "U&'""Everybody wants to be famous, but nobody wants to do the work. I live by tha... (297)"; SQL statement:
+insert into text (text,id) values (?,?) [22001-232]
+2025-02-26 13:20:00.964854+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "TEXT CHARACTER VARYING(255)": "U&'""Everybody wants to be famous, but nobody wants to do the work. I live by tha... (297)"; SQL statement:
+insert into text (text,id) values (?,?) [22001-232]
