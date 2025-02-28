@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+  <title>Pastebin</title>
+</head>
+
+<body>
+  <header>
+    <h1>Pastebin</h1>
+  </header>
+  <main>
+    <div class="container">
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+      <script src="script.js"></script>
+      <a title="Click here to open it in a new page!">
+        <p id="output"></p>
+      </a>
+      <div class="input-group">
+        <textarea id="textInput" rows="5" cols="100" 
+          placeholder="Enter your text here and save it!"></textarea>
+        <button type="button" onclick="saveText()" class="btn btn-success">Save</button>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
