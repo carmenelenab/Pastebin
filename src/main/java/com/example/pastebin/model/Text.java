@@ -1,4 +1,4 @@
-package com.example.pastebin;
+package com.example.pastebin.model;
 
 import jakarta.persistence.*;
 

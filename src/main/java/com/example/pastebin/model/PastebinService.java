@@ -1,4 +1,4 @@
-package com.example.pastebin;
+package com.example.pastebin.model;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

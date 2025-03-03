@@ -1,4 +1,4 @@
-package com.example.pastebin;
+package com.example.pastebin.model;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -12,8 +12,8 @@ public class CorsConfig {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/api/**") // Permite CORS pentru toate rutele /api
-                        .allowedOrigins("http://127.0.0.1:5500") // Front-end URL
+                registry.addMapping("/api/**")
+                        .allowedOrigins("http://localhost:63342") // Front-end URL
                         .allowedMethods("GET", "POST", "PUT", "DELETE")
                         .allowedHeaders("*")
                         .allowCredentials(true);
